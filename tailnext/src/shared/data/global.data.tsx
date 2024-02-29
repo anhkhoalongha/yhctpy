@@ -12,7 +12,7 @@ import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
 export const announcementData: AnnouncementProps = {
   title: 'NEW',
   callToAction: {
-    text: 'This template is made with Next.js 14 using the new App Router »',
+    text: 'Liệu trình châm cứu giảm cân, giảm mỡ bụng hiệu quả trong 1 tháng »',
     href: 'https://nextjs.org/blog/next-14',
   },
   callToAction2: {
@@ -25,7 +25,7 @@ export const announcementData: AnnouncementProps = {
 export const headerData: HeaderProps = {
   links: [
     {
-      label: 'Pages',
+      label: 'Dịch vụ',
       icon: IconChevronDown,
       links: [
         {
@@ -59,17 +59,17 @@ export const headerData: HeaderProps = {
       ],
     },
     {
-      label: 'Blog',
+      label: 'Bài viết',
       href: '/blog',
     },
     {
-      label: 'Contact',
+      label: 'Liên hệ',
       href: '/contact',
     },
   ],
   actions: [
     {
-      text: 'Download',
+      text: 'Đặt lịch hẹn',
       href: 'https://github.com/onwidget/tailnext',
       targetBlank: true,
     },

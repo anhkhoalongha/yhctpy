@@ -5,7 +5,6 @@ import {
   IconBrandTailwind,
   IconBrandTwitter,
   IconBulb,
-  IconCheck,
   IconClock,
   IconComponents,
   IconDownload,
@@ -14,6 +13,7 @@ import {
   IconMapPin,
   IconPhoneCall,
   IconRocket,
+  IconBuildingHospital,
 } from '@tabler/icons-react';
 import {
   CallToActionProps,
@@ -30,6 +30,7 @@ import {
 } from '../../types';
 import heroImg from '~/assets/images/hero.jpg';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
+import cham_cuu from '~/assets/images/cham_cuu.jpg'
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
 import typescriptLogo from '~/assets/images/typescript-logo.png';
@@ -47,22 +48,21 @@ export const heroHome: HeroProps = {
     <>
       <span className="hidden md:inline">
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          TailNext
+          Y học cổ truyền
         </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
+        là tập hợp các phương pháp điều trị truyền thống từ các văn hóa khác nhau, bao gồm sử dụng thảo dược, châm cứu, massage và phương pháp khác để duy trì và khôi phục sức khỏe.
       </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+      Y học cổ truyền mang lại lợi ích bằng cách sử dụng các phương pháp tự nhiên để cân bằng cơ thể và cải thiện sức khỏe.
     </>
   ),
   callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
+    text: 'Dịch vụ',
+    href: '/services',
+    icon: IconBuildingHospital,
     targetBlank: true,
   },
   callToAction2: {
-    text: 'Learn more',
+    text: 'Liên hệ',
     href: '/',
   },
   image: {
@@ -78,7 +78,7 @@ export const socialProofHome: SocialProofProps = {
   images: [
     {
       link: 'https://nextjs.org/',
-      src: nextJsLogo,
+      src: cham_cuu,
       alt: 'NextJs Logo',
     },
     {
@@ -107,16 +107,16 @@ export const featuresHome: FeaturesProps = {
   header: {
     title: (
       <>
-        What you get with <span className="whitespace-nowrap">TailNext</span>
+        Cam kết chất lượng tốt nhất
       </>
     ),
     subtitle:
-      "Elevating Your Digital Presence: Discover the Synergies Unleashed in Our Platform's Core Strengths, from Seamless Integration to Open Collaboration.",
-    tagline: 'Features',
+      "Bao gồm: Kĩ thuật, Phương pháp, Thiết bị, Hậu mãi, Bảo hành...",
+    tagline: 'Các dịch vụ hiện có',
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
+      title: 'Châm cứu truyền thống',
       description:
         'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
       icon: IconBrandTailwind,
@@ -126,7 +126,7 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Ready-to-use Components',
+      title: 'Thủy châm',
       description:
         'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
       icon: IconComponents,
@@ -136,7 +136,7 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Best Practices',
+      title: 'Điện châm',
       description:
         'By prioritizing maintainability and scalability through coding standards and design principles, your website stays robust and efficient.',
       icon: IconListCheck,
@@ -146,7 +146,7 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Excellent Page Speed',
+      title: 'Tư vấn thuốc Đông Y',
       description:
         'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
       icon: IconRocket,
@@ -156,7 +156,7 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Search Engine Optimization (SEO)',
+      title: 'Xoa bóp bấm huyệt',
       description:
         "Boost online visibility with our SEO-friendly website. Effective strategies and practices enhance your website's search engine ranking, making it easier for users to find your content.",
       icon: IconArrowsRightLeft,
@@ -166,7 +166,7 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Open to new ideas and contributions',
+      title: 'Chẩn đoán/Tư vấn liệu trình',
       description:
         'We welcome new ideas and contributions to our platform. Whether you have feature suggestions, want to contribute code, or share insights, our platform is open for collaboration.',
       icon: IconBulb,
@@ -183,25 +183,25 @@ export const contentHomeOne: ContentProps = {
   id: 'contentOne-on-home-one',
   hasBackground: true,
   header: {
-    title: 'Aliquip definiebas ad est',
-    subtitle: 'Quando cetero his ne, eum admodum sapientem ut',
-    tagline: 'Content',
+    title: 'Cung cấp các dịch vụ đặc biệt',
+    subtitle: 'Giúp khách hàng có thể tiếp cận dịch vụ với điều kiện tốt nhất và thuận lời nhất',
+    tagline: 'Dịch vụ đặc biệt',
   },
   content:
-    'Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.',
+    'Hỗ trợ châm cứu tại nhà.',
   items: [
     {
-      title: 'Per ei quaeque sensibus',
+      title: 'Nhanh chóng',
       description:
         'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
     },
     {
-      title: 'Cu imperdiet posidonium sed',
+      title: 'An toàn',
       description:
         'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
     },
     {
-      title: 'Nulla omittam sadipscing mel ne',
+      title: 'Tiện lợi',
       description:
         'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
     },
@@ -219,25 +219,25 @@ export const contentHomeTwo: ContentProps = {
   id: 'contentOne-on-home-two',
   hasBackground: true,
   content:
-    'Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te latine theophrastus. Ea his tale nib dissentias, mei exerci tamquam euripidis cu.',
+    'Lên liệu trình riêng',
   items: [
     {
-      title: 'Per ei quaeque sensibus',
+      title: 'Hiệu quả',
     },
     {
-      title: 'Cu imperdiet posidonium sed',
+      title: 'Chính xác',
     },
     {
-      title: 'Nulla omittam sadipscing mel ne',
+      title: 'Phù hợp cho từng bệnh nhân.',
     },
     {
-      title: 'Per ei quaeque sensibus',
+      title: 'Theo sát trong quá trình',
     },
     {
-      title: 'Cu imperdiet posidonium sed',
+      title: 'Dứt điểm',
     },
     {
-      title: 'Nulla omittam sadipscing mel ne',
+      title: 'Tiết kiệm thời gian',
     },
   ],
   image: {
@@ -259,29 +259,29 @@ export const stepsHome: StepsProps = {
     alt: 'Steps image',
   },
   header: {
-    title: 'Sed ac magna sit amet risus tristique interdum.',
+    title: 'Quy trình khám chữa bệnh:',
   },
   items: [
     {
-      title: 'Step 1',
+      title: 'Bước 1',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
+        'Lên lịch: Liên hệ sớm với phòng khám để có được lịch khám thuận lợi',
       icon: IconArrowDown,
     },
     {
-      title: 'Step 2',
+      title: 'Bước 2',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+        'Chẩn đoán: Khám bệnh các phương tiện hiện đại, bác sĩ tay nghề cao.',
       icon: IconArrowDown,
     },
     {
-      title: 'Step 3',
+      title: 'Bước 3',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+        'Tư vấn: Lên kế hoạch điều trị, phương pháp thực hiện, phương án dự kiến, thời gian điều trị dự kiến,...',
       icon: IconArrowDown,
     },
     {
-      title: 'Ready!',
+      title: 'Điều trị: Tiến hành điều trị với liệu trình đã được sự đồng ý từ bệnh nhân',
     },
   ],
 };
@@ -291,9 +291,9 @@ export const testimonialsHome: TestimonialsProps = {
   id: 'testimonials-on-home',
   hasBackground: true,
   header: {
-    title: 'What our customers say about us',
+    title: 'Phản hồi từ khách hàng',
     subtitle:
-      'Etiam sed odio et dolor auctor gravida. Curabitur tincidunt elit non risus pharetra sodales. Etiam sit amet mattis massa.',
+      'Với hơn 3 năm hoạt động với sự ủng và tin tưởng của khách hàng, phòng khám đã khám và  điều trị hơn 10.000 bệnh nhân với nhiều triệu chứng, bệnh lí khác nhau.',
   },
   testimonials: [
     {
@@ -364,9 +364,9 @@ export const faqs2Home: FAQsProps = {
   id: 'faqsTwo-on-home',
   hasBackground: false,
   header: {
-    title: 'Frequently Asked Questions',
+    title: 'Câu hỏi thường gặp',
     subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
+      '',
     tagline: 'FAQS',
   },
   items: [
@@ -613,17 +613,17 @@ export const contactHome: ContactProps = {
     'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
   items: [
     {
-      title: 'Our Address',
+      title: 'Địa chỉ',
       description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
       icon: IconMapPin,
     },
     {
-      title: 'Contact',
+      title: 'Liên hệ',
       description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
       icon: IconPhoneCall,
     },
     {
-      title: 'Working hours',
+      title: 'Giờ làm việc',
       description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
       icon: IconClock,
     },
