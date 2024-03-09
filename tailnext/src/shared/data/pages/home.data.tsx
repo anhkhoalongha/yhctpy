@@ -43,17 +43,17 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Khám phá vẻ đẹp của <br></br> y học cổ truyền tại phòng khám chúng tôi.    </>
+      Phòng khám Y học cổ truyền Phú Yên. </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
-        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
+        <span className="font-semibold decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
           Y học cổ truyền
         </span>{' '}
-        là tập hợp các phương pháp điều trị truyền thống từ các văn hóa khác nhau, bao gồm sử dụng thảo dược, châm cứu, massage và phương pháp khác để duy trì và khôi phục sức khỏe.
+        là việc sử dụng các phương pháp truyền thống như thảo dược, châm cứu, massage và các phương pháp khác để duy trì và khôi phục sức khỏe. Đây là cách cân bằng cơ thể và cải thiện sức khỏe bằng cách sử dụng các phương pháp tự nhiên.
       </span>{' '}
-      Y học cổ truyền mang lại lợi ích bằng cách sử dụng các phương pháp tự nhiên để cân bằng cơ thể và cải thiện sức khỏe.
+
     </>
   ),
   callToAction: {
@@ -169,7 +169,7 @@ export const featuresHome: FeaturesProps = {
     {
       title: 'Thẩm mỹ',
       description:
-        'We welcome new ideas and contributions to our platform. Whether you have feature suggestions, want to contribute code, or share insights, our platform is open for collaboration.',
+        'Châm cứu giảm mỡ bụng, mỡ bắp tay, đùi; Nâng cơ mặt, giảm vết chân chim, vết nhăn, căng bóng da, tái tạo collagen, giảm nọng mỡ…..',
       icon: IconBulb,
       callToAction: {
         text: 'Discover now',
