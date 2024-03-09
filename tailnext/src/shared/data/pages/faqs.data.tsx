@@ -32,19 +32,19 @@ export const faqs4Faqs: FAQsProps = {
       },
       items: [
         {
-          title: 'What do I need to start?',
+          title: 'Bác sĩ ở phòng khám là ai?',
           description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
         },
         {
-          title: 'How to install the NextJS + Tailwind CSS template?',
+          title: 'Thời gian châm cứu?',
           description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
         },
         {
-          title: "What's something that you completely don't understand?",
+          title: "Tư vấn trước khi điều trị?",
           description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
         },
         {
-          title: "What's an example of when you changed your mind?",
+          title: "Có hỗ trợ 24/24 không?",
           description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
         },
         {

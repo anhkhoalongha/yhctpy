@@ -29,12 +29,13 @@ import {
   TestimonialsProps,
 } from '../../types';
 import heroImg from '~/assets/images/hero.jpg';
-import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import cham_cuu from '~/assets/images/cham_cuu.jpg'
+import phum_xam_moi from '~/assets/images/phun_xam_moi.jpeg'
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
 import typescriptLogo from '~/assets/images/typescript-logo.png';
 import cameraFrontImg from '~/assets/images/camera-front.jpg';
+import cham_cuu_2 from '~/assets/images/cham_cuu_homepage2.jpg'
 import cameraBackImg from '~/assets/images/camera-back.jpg';
 import gasImg from '~/assets/images/gas.jpg';
 
@@ -166,7 +167,7 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Chẩn đoán/Tư vấn liệu trình',
+      title: 'Thẩm mỹ',
       description:
         'We welcome new ideas and contributions to our platform. Whether you have feature suggestions, want to contribute code, or share insights, our platform is open for collaboration.',
       icon: IconBulb,
@@ -207,7 +208,7 @@ export const contentHomeOne: ContentProps = {
     },
   ],
   image: {
-    src: cameraFrontImg,
+    src: cham_cuu_2,
     alt: 'Colorful Image',
   },
   isReversed: false,
@@ -241,7 +242,7 @@ export const contentHomeTwo: ContentProps = {
     },
   ],
   image: {
-    src: cameraBackImg,
+    src: phum_xam_moi,
     alt: 'Colorful Image',
   },
   isReversed: true,
